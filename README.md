@@ -4,7 +4,7 @@
 Pygrr PolyArt
 </h1>
 
-#### Copyright 2021 [IsaacTFM](https://www.isaactfm.com/pygrr)
+#### Copyright 2021 [IsaacTFM](https://www.isaactfm.com/)
 
 </div>
 This is Pygrr PolyArt, a program used for drawing custom Polygon models for your Pygrr project!

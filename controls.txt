@@ -1,0 +1,10 @@
+How to use PolyArt?
+
+~ left-click on a point and drag to move the point
+~ right-click on a point to remove it
+~ left-click on a line to create a new point
+~ click on the buttons to interact
+~ type and hit enter on an entry to submit
+~ click the "colormixer" png to open the colormixer
+~ use WSAD or UPDOWNLEFTRIGHT to move the model
+~ use Q and E to rotate the model
