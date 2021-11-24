@@ -57,14 +57,21 @@ def compute_hull(points: List[tuple]) -> List[Point]:
 
     # create the list that will store the hull's points
     hull = [leftmost]
-
     point_on = leftmost
+
+    # declare point_1
+    point_1 = None
     for i in range(len(points)):
         # find the initial max
         for point in points:
             if point != point_on:
                 point_1 = point
                 break
+
+        if point_1 is None:
+            # all the points lie on the same position
+            return hull
+
         far_point = point_1
 
         for point_2 in points:

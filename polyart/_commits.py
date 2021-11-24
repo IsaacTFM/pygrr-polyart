@@ -192,7 +192,7 @@ def save():
                 x /= polyart.SCALE
                 y /= polyart.SCALE
                 # add to array
-                _polydata.append((x, y))
+                _polydata.append((round(x, 3), round(y, 3)))
 
             # store the points of the hull
             _hulldata = []
@@ -204,7 +204,7 @@ def save():
                 x /= polyart.SCALE
                 y /= polyart.SCALE
                 # add to array
-                _hulldata.append((x, y))
+                _hulldata.append((round(x, 3), round(y, 3)))
 
             # make the model_center orient from the center
             x = -(polyart.CENTER[0] - polyart.model_center[0])
@@ -213,7 +213,7 @@ def save():
             x /= polyart.SCALE
             y /= polyart.SCALE
             # create tuple
-            _center = (x, y)
+            _center = (round(x, 3), round(y, 3))
 
             # create the collider data
             collider_data = {
